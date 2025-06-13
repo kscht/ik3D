@@ -6,9 +6,7 @@ tags:
 epic: unknown
 files:
 - title: Файл требует описания
-  file: Полка.FCStd
-- title: Файл требует описания
-  file: Ограничитель для окна
+  file: Шаблон под маршрутизатор.FCStd
 ---
 
 

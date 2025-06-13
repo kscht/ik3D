@@ -6,6 +6,12 @@ tags:
 epic: unknown
 files:
 - title: Файл требует описания
+  file: ловушка.FCStd
+- title: Файл требует описания
+  file: 3_ловушка.20240615-223740.FCStd
+- title: Файл требует описания
+  file: Батина фигурка.FCStd
+- title: Файл требует описания
   file: Грибок.FCStd
 ---
 
