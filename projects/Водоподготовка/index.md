@@ -4,6 +4,7 @@ status: unknown
 tags:
 - канализация
 - водоподготовка
+- насос
 - переходники
 epic: unknown
 files:
