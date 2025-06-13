@@ -2,7 +2,8 @@
 title: Проект требует описания
 status: unknown
 tags:
-- unsorted
+- корпуса
+- ubertooth
 epic: unknown
 files:
 - title: Файл требует описания

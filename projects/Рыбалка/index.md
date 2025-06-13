@@ -2,7 +2,7 @@
 title: Проект требует описания
 status: unknown
 tags:
-- unsorted
+- рыбалка
 epic: unknown
 files:
 - title: Файл требует описания

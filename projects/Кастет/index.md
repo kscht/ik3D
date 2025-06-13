@@ -2,7 +2,8 @@
 title: Проект требует описания
 status: unknown
 tags:
-- unsorted
+- сувениры
+- кастет
 epic: unknown
 files:
 - title: Файл требует описания

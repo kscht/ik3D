@@ -2,7 +2,10 @@
 title: Проект требует описания
 status: unknown
 tags:
-- unsorted
+- канализация
+- водоподготовка
+- насос
+- переходники
 epic: unknown
 files:
 - title: Файл требует описания
