@@ -3,15 +3,12 @@ title: Проект требует описания
 status: unknown
 tags:
 - unsorted
-- unlisted
 epic: unknown
 files:
 - title: Файл требует описания
-  file: 2_Чехол для бура.FCStd
+  file: Кастет.FCStd
 - title: Файл требует описания
-  file: 3_Чехол для бура.20250107-183956.FCStd
-- title: Файл требует описания
-  file: 1_Чехол для бура.FCStd
+  file: 3_Кастет.20250301-234148.FCStd
 ---
 
 

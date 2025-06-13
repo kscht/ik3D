@@ -7,6 +7,8 @@ tags:
 epic: unknown
 files:
 - title: Файл требует описания
+  file: луковый горшок.FCStd
+- title: Файл требует описания
   file: горшок для лука.FCStd
 ---
 
