@@ -1,9 +1,9 @@
 ---
-title: Проект требует описания
+title: Горшок для лука
 status: unknown
 tags:
-- unsorted
-- unlisted
+- горшки
+- гидропоника
 epic: unknown
 files:
 - title: Файл требует описания
