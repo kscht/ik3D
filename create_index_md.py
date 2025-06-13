@@ -99,8 +99,8 @@ def create_index_md_in_projects(projects_directory, example_md_path):
                 print(f"Создан файл: {index_md_path}")
 
 if __name__ == "__main__":
-    projects_directory = "/home/kscht/ik-3D/projects"
-    example_md_path = "/home/kscht/ik-3D/example.md"
+    projects_directory = "./projects"
+    example_md_path = "./example.md"
     
     if not os.path.exists(projects_directory):
         print(f"Директория {projects_directory} не существует!")
