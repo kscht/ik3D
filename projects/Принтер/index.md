@@ -1,17 +1,16 @@
 ---
-title: Горшок для лука
+title: Проект требует описания
 status: unknown
 tags:
-- горшки
-- гидропоника
+- unsorted
 epic: unknown
 files:
 - title: Файл требует описания
-  file: 3_горшок для лука.20250311-142940.FCStd
+  file: 3_замеры-модель.20250522-195547.FCStd
 - title: Файл требует описания
-  file: луковый горшок.FCStd
+  file: 3_v400.20241117-175843.FCStd
 - title: Файл требует описания
-  file: горшок для лука.FCStd
+  file: v400.FCStd
 ---
 
 

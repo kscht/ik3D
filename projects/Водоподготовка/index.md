@@ -6,39 +6,39 @@ tags:
 epic: unknown
 files:
 - title: Файл требует описания
-  file: 3_Полка.20250328-162639.FCStd
+  file: горло (6).FCStd
 - title: Файл требует описания
-  file: 3_Безымянный.20250526-172506.FCStd
+  file: горло (4).FCStd
 - title: Файл требует описания
-  file: каёбка.FCStd
+  file: 2_переходник.FCStd
 - title: Файл требует описания
-  file: кронштейн.FCStd
+  file: горло (5).FCStd
 - title: Файл требует описания
-  file: кронштейн для минкоты2.FCStd
+  file: Тонкая плашка.FCStd
 - title: Файл требует описания
-  file: 3_Кронштейн.20250530-130405.FCStd
+  file: 3_горло (7).20250102-013028.FCStd
 - title: Файл требует описания
-  file: старая каёбка.FCStd
+  file: горло (3).FCStd
 - title: Файл требует описания
-  file: 3_ящик на стену.20240722-111106.FCStd
+  file: 1_переходник.FCStd
 - title: Файл требует описания
-  file: 3_каёбка.20250502-002511.FCStd
+  file: п переход.FCStd
 - title: Файл требует описания
-  file: 3_кронштейн для минкоты.20240723-224752.FCStd
+  file: Адаптер.FCStd
 - title: Файл требует описания
-  file: каб.FCStd
+  file: горло (7).FCStd
 - title: Файл требует описания
-  file: КАбка.FCStd
+  file: Тройник 2.0.FCStd
 - title: Файл требует описания
-  file: Коробка.FCStd
+  file: Пробки.FCStd
 - title: Файл требует описания
-  file: 1_кронштейн для минкоты.FCStd
+  file: Труба для канализухи.FCStd
 - title: Файл требует описания
-  file: 2_кронштейн для минкоты.FCStd
+  file: горло (2).FCStd
 - title: Файл требует описания
-  file: Кронштейн.FCStd
+  file: горло.FCStd
 - title: Файл требует описания
-  file: ящик на стену.FCStd
+  file: ключик под ключик.FCStd
 ---
 
 
