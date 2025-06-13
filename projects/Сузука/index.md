@@ -2,7 +2,10 @@
 title: Проект требует описания
 status: unknown
 tags:
-- unsorted
+- мотор
+- рыбалка
+- прокладка
+- suzuki
 epic: unknown
 files:
 - title: Файл требует описания

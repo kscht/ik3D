@@ -2,7 +2,10 @@
 title: Проект требует описания
 status: unknown
 tags:
-- unsorted
+- кладовка
+- хранение
+- крючки
+- коробки
 epic: unknown
 files:
 - title: Файл требует описания
