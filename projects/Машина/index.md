@@ -4,6 +4,7 @@ status: unknown
 tags:
 - машина
 - электрика
+- зарядник
 epic: unknown
 files:
 - title: Файл требует описания

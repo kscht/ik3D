@@ -2,7 +2,7 @@
 title: Проект требует описания
 status: unknown
 tags:
-- охота
+- мотовила
 epic: unknown
 files:
 - title: Файл требует описания
