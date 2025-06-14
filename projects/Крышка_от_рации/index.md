@@ -2,8 +2,7 @@
 title: Проект требует описания
 status: unknown
 tags:
-- unsorted
-- unlisted
+- ремонт
 epic: unknown
 files:
 - title: Файл требует описания
