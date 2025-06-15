@@ -13,20 +13,27 @@ def update_files_section(yaml_data, dir_path):
     # Обновляем список файлов
     updated_files = []
     for file in current_files:
+        # Используем существующий заголовок или создаем новый
+        title = existing_files.get(file, 'Файл требует описания')
         file_info = {
-            'title': existing_files.get(file, 'Файл требует описания'),
+            'title': title,
             'file': file
         }
         updated_files.append(file_info)
     
+    # Сортируем файлы по имени для стабильного порядка
+    updated_files.sort(key=lambda x: x['file'])
+    
     yaml_data['files'] = updated_files
     return yaml_data
 
-def should_update_yaml(existing_yaml, example_yaml):
+def should_update_yaml(existing_yaml, example_yaml, dir_path):
     """Проверяет, нужно ли обновлять YAML данные."""
-    # Проверяем title
-    if existing_yaml.get('title') != example_yaml.get('title'):
-        return True
+    # Проверяем title только для новых файлов
+    if not existing_yaml.get('title'):
+        if existing_yaml.get('title') != example_yaml.get('title'):
+            print(f"Обновление {dir_path}: отсутствует заголовок")
+            return True
     
     # Проверяем tags
     existing_tags = set(existing_yaml.get('tags', []))
@@ -36,7 +43,22 @@ def should_update_yaml(existing_yaml, example_yaml):
     if not example_tags.issubset(existing_tags):
         return False
     
-    return True
+    # Получаем текущий список файлов
+    current_files = set(f for f in os.listdir(dir_path) if os.path.isfile(os.path.join(dir_path, f)) and f != 'index.md')
+    
+    # Получаем список файлов из существующего YAML
+    existing_files = set(file['file'] for file in existing_yaml.get('files', []))
+    
+    # Проверяем, есть ли различия
+    if current_files != existing_files:
+        print(f"Обновление {dir_path}:")
+        if current_files - existing_files:
+            print(f"  Добавлены: {', '.join(current_files - existing_files)}")
+        if existing_files - current_files:
+            print(f"  Удалены: {', '.join(existing_files - current_files)}")
+        return True
+    
+    return False
 
 def create_index_md_in_projects(projects_directory, example_md_path):
     """Рекурсивно обрабатывает папки в projects, создает или обновляет index.md файлы."""
@@ -64,7 +86,7 @@ def create_index_md_in_projects(projects_directory, example_md_path):
                     existing_yaml = yaml.safe_load(existing_yaml_content)
                 
                 # Проверяем, нужно ли обновлять YAML
-                if should_update_yaml(existing_yaml, example_yaml):
+                if should_update_yaml(existing_yaml, example_yaml, dir_path):
                     # Обновляем только секцию files
                     updated_yaml = update_files_section(existing_yaml, dir_path)
                     
